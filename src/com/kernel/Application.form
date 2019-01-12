@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.kernel.Application">
+  <grid id="27dc6" binding="rootPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+    <constraints>
+      <xy x="108" y="86" width="407" height="136"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <hspacer id="7ce10">
+        <constraints/>
+      </hspacer>
+      <component id="9ca1b" class="javax.swing.JComboBox" binding="taskBox">
+        <constraints/>
+        <properties>
+          <model>
+            <item value="Monday"/>
+            <item value="Tuesday"/>
+            <item value="Wednesday"/>
+            <item value="Thursday"/>
+            <item value="Friday"/>
+            <item value="Saturday"/>
+            <item value="Sunday"/>
+          </model>
+        </properties>
+      </component>
+      <component id="1376c" class="javax.swing.JButton" binding="saveButton">
+        <constraints/>
+        <properties>
+          <text value="Save"/>
+        </properties>
+      </component>
+      <component id="d5480" class="javax.swing.JTextArea" binding="taskText">
+        <constraints/>
+        <properties>
+          <columns value="33"/>
+          <enabled value="true"/>
+          <lineWrap value="false"/>
+          <rows value="4"/>
+          <wrapStyleWord value="false"/>
+        </properties>
+      </component>
+      <scrollpane id="f968b" binding="textAreaScroll">
+        <constraints/>
+        <properties/>
+        <border type="none"/>
+        <children/>
+      </scrollpane>
+    </children>
+  </grid>
+</form>
